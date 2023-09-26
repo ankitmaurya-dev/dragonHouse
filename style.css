@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+}
+.header{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+ .navbar{
+    height: 50px;
+    width: 100%;
+    background: rgba(40, 37, 37, 0.438);
+ }
+ .navbar nav{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 50px;
+
+ }
+.navbar nav .logo{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+ .navbar nav .navItem ul{
+    display: flex;
+    float: left;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+ }
+ .navbar nav .navItem ul li a{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+
+ }
+ .movieTitle{
+   position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(115, 112, 112, 0.5);
+    backdrop-filter: blur(5px);
+    bottom: 200px;
+ }
+ .movieTitle h1{
+   color: white;
+   font-size: 45px;
+   padding: 30px;
+   font-family: 'Nunito', sans-serif;
+ }
+ .movieTitle p{
+   color: white;
+   font-size: 20px;
+   font-family: 'Nunito', sans-serif;
+   padding-left: 30px;
+   margin-top: -30px;
+ }
+ .corouselPoster{
+  height: 400px;
+  width: 300px;
+  background: #000;
+  float: right;
+  margin-right: 30px;
+  margin-top: -369px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .corouselPoster img{
+  height: 350px;
+  width: 270px;
+ }
+ .centerDiv{
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+ }
+
+ .movieItem{
+   height: 500px;
+   width: 300px;
+   float: left;
+   border-radius: 15px;
+   overflow: hidden;
+   margin: 10px;
+ }
+ .rDate{
+   height: 50px;
+   width: 100%;
+   background-color: #111827;
+   text-align: center;
+   color: white;
+   font-family: 'Nunito', sans-serif;
+ }
+ .poster{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .poster img{
+  height: 330px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+ }
+ .postTitle{
+   height: 70px;
+   background-color: #111827;
+   padding: 5px;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   border-bottom: 15px;
+   font-family: 'Nunito', sans-serif;
+ }
+
+ .listSorter{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: white;
+ }
+ .listSorter .box{
+  border: 1px solid white;
+  background:  #111827;
+  text-align: center;
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+ }
